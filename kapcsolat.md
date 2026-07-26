@@ -44,6 +44,7 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
                 <textarea class="form-textarea" id="message" name="message" placeholder="Írd meg, miben segíthetünk" required></textarea>
               </div>
             </div>
+            <div class="h-captcha" data-captcha="true"></div>
             <button class="form-submit" type="submit">Üzenet küldése</button>
           </form>
         </div>
