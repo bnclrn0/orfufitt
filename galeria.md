@@ -21,8 +21,8 @@ description: Fotók a jurtatáborról, a Pécsi-tóról és a táborozási progr
       a helyőrző háttérszín helyett.
     -->
     <div class="gallery-grid">
-      <div class="g-tile wide tall" style="background:linear-gradient(135deg,#244F5C,#16333C);">
-        <span>Jurtatábor naplementében</span>
+      <div class="g-tile wide tall" <img src="{{ '/assets/images/jurta.jpg' | relative_url }}" alt="Jurták">
+        <span>Jurtatábor</span>
       </div>
       <div class="g-tile" style="background:linear-gradient(135deg,#3C5A34,#244F5C);">
         <span>Pécsi-tó</span>
