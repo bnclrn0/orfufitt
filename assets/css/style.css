@@ -286,32 +286,6 @@ section { padding: 72px 0; }
   color: #55503f;
 }
 
-/* ---------- Mobil nézet ---------- */
-@media (max-width: 768px) {
-  .price-table {
-    table-layout: fixed;
-  }
-
-  .price-table th:first-child,
-  .price-table td:first-child {
-    width: 55%;
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-break: break-word;
-  }
-
-  .price-table th:nth-child(2),
-  .price-table td:nth-child(2) {
-    width: 20%;
-  }
-
-  .price-table th:nth-child(3),
-  .price-table td:nth-child(3) {
-    width: 25%;
-    white-space: nowrap;
-  }
-}
-
 /* ---------- Gallery ---------- */
 .gallery-grid {
   display: grid;
