@@ -22,10 +22,7 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
         </dl>
 
         <!--
-          Web3Forms kapcsolati form.
-          Regisztrálj egy ingyenes Access Key-t itt: https://web3forms.com
-          és cseréld le a YOUR_ACCESS_KEY_HERE értéket a sajátodra.
-          Dokumentáció: https://docs.web3forms.com
+          Kapcsolati form.
         -->
         <div class="contact-form-wrap">
           <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
@@ -41,10 +38,6 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
               <div class="form-group">
                 <label for="email" class="form-label">E-mail</label>
                 <input id="email" name="email" class="form-input" placeholder="E-mail címed" type="email" required />
-              </div>
-              <div class="form-group">
-                <label for="phone" class="form-label">Telefon</label>
-                <input id="phone" name="phone" class="form-input" placeholder="+36 20 123 4567" type="text" />
               </div>
               <div class="form-group">
                 <label for="message" class="form-label">Üzenet</label>
