@@ -9,10 +9,6 @@ description: Szállás- és eszközkölcsönzési árak az OrfűFitt Jurtatábor
   <div class="container">
     <span class="eyebrow">Árak</span>
     <h1>Szállás és kölcsönzés</h1>
-    <p style="max-width:60ch;">
-      Az alábbi táblázat helyőrző adatokat tartalmaz — cseréld le a régi oldalról
-      átvett, aktuális árakra, mielőtt élesítitek az oldalt.
-    </p>
 
     <h2 style="margin-top:40px;">Szállás</h2>
     <table class="price-table">
