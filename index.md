@@ -40,7 +40,7 @@ description: Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó part
         <!-- közelebbi domb/hegyvonulat -->
         <path d="M0,190 C60,125 140,155 220,105 C300,65 370,145 480,115 L480,222 L0,222 Z" fill="#3C5A34" opacity="0.85"/>
 
-        <circle cx="380" cy="66" r="44" fill="#C96A2C" opacity="0.85"/>
+        <circle cx="380" cy="66" r="44" fill="#C96A2C" opacity="1"/>
 
         <!-- tópart sávja -->
         <rect x="0" y="200" width="480" height="22" fill="#D8C9A3"/>
