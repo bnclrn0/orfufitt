@@ -10,11 +10,6 @@ description: Fotók a jurtatáborról, a Pécsi-tóról és a táborozási progr
     <span class="eyebrow">Galéria</span>
     <h1>Tábor és tópart képekben</h1>
 
-    <!--
-      Csere: minden .g-tile div-en belülre kerüljön egy
-      <img src="{{ '/assets/images/SAJAT-FOTO.jpg' | relative_url }}" alt="...">
-      a helyőrző háttérszín helyett.
-    -->
     <div class="gallery-grid">
       <div class="g-tile wide tall">
         <img src="{{ '/assets/images/jurta.jpg' | relative_url }}" alt="Jurták">
