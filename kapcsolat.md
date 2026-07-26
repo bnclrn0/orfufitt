@@ -53,7 +53,7 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
 
       <div class="map-wrap">
         <iframe
-          src="https://www.google.com/maps?q=Orf%C5%B1%2C+Doll%C3%A1r+utca+36&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.079908658503!2d18.134750741137754!3d46.1491548875973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4742af5f9e13f373%3A0x9e88cca0ff226dd6!2sJurtat%C3%A1bor%20%C3%A9s%20Kemping!5e0!3m2!1shu!2shu!4v1785072972339!5m2!1shu!2shu"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="OrfűFitt Jurtatábor helyszíne térképen">
