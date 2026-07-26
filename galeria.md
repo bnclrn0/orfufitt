@@ -9,11 +9,6 @@ description: Fotók a jurtatáborról, a Pécsi-tóról és a táborozási progr
   <div class="container">
     <span class="eyebrow">Galéria</span>
     <h1>Tábor és tópart képekben</h1>
-    <p style="max-width:60ch;margin-bottom:32px;">
-      Ide kerülnek majd a saját fotók a jurtákról, a tóról és a programokról.
-      A csempék egyelőre helyőrzők — mindegyik <code>&lt;img&gt;</code> elemre cserélhető
-      a <code>assets/images/</code> mappába feltöltött fotókkal.
-    </p>
 
     <!--
       Csere: minden .g-tile div-en belülre kerüljön egy
@@ -21,7 +16,8 @@ description: Fotók a jurtatáborról, a Pécsi-tóról és a táborozási progr
       a helyőrző háttérszín helyett.
     -->
     <div class="gallery-grid">
-      <div class="g-tile wide tall" <img src="{{ '/assets/images/jurta.jpg' | relative_url }}" alt="Jurták">
+      <div class="g-tile wide tall">
+        <img src="{{ '/assets/images/jurta.jpg' | relative_url }}" alt="Jurták">
         <span>Jurtatábor</span>
       </div>
       <div class="g-tile" style="background:linear-gradient(135deg,#3C5A34,#244F5C);">
