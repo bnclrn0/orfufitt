@@ -1,0 +1,11 @@
+<!--
+  Signature elem: tóhullám elválasztó a szekciók között.
+  Használat: {% include wave.html fill="#E4E9DE" from="#16333C" %}
+  "from" = az előző szekció háttérszíne (ide fest bele a hullám teteje)
+  "fill" = a következő szekció háttérszíne (ez a hullám kitöltése)
+-->
+<div class="wave" style="background:{{ include.from }};" aria-hidden="true">
+  <svg viewBox="0 0 1200 48" preserveAspectRatio="none">
+    <path d="M0,24 C150,48 300,0 450,20 C600,40 750,4 900,22 C1050,40 1150,16 1200,24 L1200,48 L0,48 Z" fill="{{ include.fill }}"></path>
+  </svg>
+</div>

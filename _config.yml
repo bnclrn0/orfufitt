@@ -1,0 +1,41 @@
+title: OrfűFitt Jurtatábor
+description: >-
+  Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó partján.
+  Szállás, aktív programok és élmények családoknak, osztályoknak és csapatoknak.
+url: "https://www.orfufitt.hu"
+baseurl: ""
+
+lang: hu
+
+author: OrfűFitt Jurtatábor
+email: orfufitt@gmail.com
+phone: "+36 20 326 6707"
+address: "7677 Orfű, Dollár utca 36."
+
+nav:
+  - title: Kezdőlap
+    url: /
+  - title: Árak
+    url: /arak/
+  - title: Programok
+    url: /programok/
+  - title: Galéria
+    url: /galeria/
+  - title: Kapcsolat
+    url: /kapcsolat/
+
+markdown: kramdown
+permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

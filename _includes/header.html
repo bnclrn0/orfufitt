@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="{{ '/' | relative_url }}">Orfű<span>Fitt</span></a>
+    <button class="nav-toggle" aria-label="Menü megnyitása" aria-expanded="false" id="navToggle">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        {% for item in site.nav %}
+          {% assign is_active = false %}
+          {% if page.url == item.url %}{% assign is_active = true %}{% endif %}
+          <li><a href="{{ item.url | relative_url }}"{% if is_active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<script>
+  document.getElementById('navToggle').addEventListener('click', function () {
+    var nav = document.getElementById('mainNav');
+    var open = nav.classList.toggle('open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>
