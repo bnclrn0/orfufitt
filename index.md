@@ -10,7 +10,7 @@ description: Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó part
       <span class="eyebrow">Orfű · Pécsi-tó partján</span>
       <h1>Jurta, tópart, szabad ég</h1>
       <p class="lead">
-        Kilenc kazah jurta, saját sporteszköz-kölcsönző és percekre a Pécsi-tó vize —
+        Kilenc kazah jurta, saját sporteszköz-kölcsönző és egy lépésre a Pécsi-tó vize —
         az OrfűFitt Jurtatábor otthonos bázis osztálykirándulásoknak, családoknak és
         csapatépítő programoknak.
       </p>
@@ -20,7 +20,6 @@ description: Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó part
       </div>
     </div>
     <div>
-      <!-- Csere: saját fotó a jurtatáborról vagy a tópartról -->
       <svg class="hero-art" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jurták a tóparton, domboktól övezve, vízparti tükröződéssel">
         <defs>
           <linearGradient id="heroSky" x1="0" y1="0" x2="0" y2="1">
@@ -104,12 +103,12 @@ description: Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó part
       <div class="card">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 3 21h18L12 3Z"/><path d="M8 21v-6h8v6"/></svg>
         <h3>Jurtatábor</h3>
-        <p>9 hangulatos, fa padlós kazah jurta, 54 férőhellyel, modern vizesblokkal és főzőfülkével.</p>
+        <p>9 hangulatos, fa padlós kazah jurta, 54 férőhellyel, közös vizesblokkal és főzőfülkével.</p>
       </div>
       <div class="card">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M9 17 12 7l5 2M9 17h9"/></svg>
         <h3>Fitt Klub</h3>
-        <p>Kerékpár, kajak és kenu kölcsönzés — fedezd fel Orfűt és a Pécsi-tavat saját tempódban.</p>
+        <p>Kajak és kenu kölcsönzés — fedezd fel Orfűt és a Pécsi-tavat saját tempódban.</p>
       </div>
       <div class="card">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
@@ -119,7 +118,7 @@ description: Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó part
       <div class="card">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M5 9l7-7 7 7M5 15l7 7 7-7"/></svg>
         <h3>Tópart</h3>
-        <p>Percekre a Pécsi-tótól — úszás, strandolás és a nyári sárkányhajó fesztivál helyszíne.</p>
+        <p>Egy lépésre a Pécsi-tótól — úszás, strandolás és a nyári sárkányhajó fesztivál helyszíne.</p>
       </div>
     </div>
   </div>
