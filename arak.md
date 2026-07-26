@@ -17,7 +17,7 @@ description: Szállás- és eszközkölcsönzési árak az OrfűFitt Jurtatábor
       </thead>
       <tbody>
         <tr><td>Jurta</td><td>fő/éj</td><td class="price">7 700 Ft</td></tr>
-        <tr><td>Diák (diákigazolvánnyal)</td><td>fő/éj</td><td class="price">6 930 Ft</td></tr>
+        <tr><td>Diák</td><td>fő/éj</td><td class="price">6 930 Ft</td></tr>
         <tr><td>Gyermek (0-2 éves)</td><td>fő/éj</td><td class="price">3 850 Ft</td></tr>
         <tr><td>Gyermek (2-6 éves)</td><td>fő/éj</td><td class="price">6 160 Ft</td></tr>
         <tr><td>Egyéjszakás felár</td><td></td><td class="price">1 800 Ft</td></tr>
