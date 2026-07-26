@@ -17,12 +17,12 @@ description: Szállás- és eszközkölcsönzési árak az OrfűFitt Jurtatábor
     <h2 style="margin-top:40px;">Szállás</h2>
     <table class="price-table">
       <thead>
-        <tr><th>Szolgáltatás</th><th>Időszak</th><th>Ár</th></tr>
+        <tr><th>Szolgáltatás</th><th>Ár</th></tr>
       </thead>
       <tbody>
-        <tr><td>Jurta, fő/éj</td><td>szezonban</td><td class="price">7 700 Ft</td></tr>
-        <tr><td>Diák (érvényes diákigazolvánnyal)</td><td>—</td><td class="price">6 930 Ft</td></tr>
-        <tr><td>Sátorhely / fő</td><td>—</td><td class="price">5 000 Ft</td></tr>
+        <tr><td>Jurta, fő/éj</td><td class="price">7 700 Ft</td></tr>
+        <tr><td>Diák (érvényes diákigazolvánnyal)</td><td class="price">6 930 Ft</td></tr>
+        <tr><td>Sátorhely / fő</td><td class="price">5 000 Ft</td></tr>
       </tbody>
     </table>
 
@@ -32,9 +32,9 @@ description: Szállás- és eszközkölcsönzési árak az OrfűFitt Jurtatábor
         <tr><th>Eszköz</th><th>Időtartam</th><th>Ár</th></tr>
       </thead>
       <tbody>
-        <tr><td>Tengeri kajak - 1 személyes</td><td>óra / nap</td><td class="price">2 000 Ft</td></tr>
-        <tr><td>Tengeri kajak - 2 személyes</td><td>óra / nap</td><td class="price">3 500 Ft</td></tr>
-        <tr><td>Kenu - 4 személyes</td><td>óra / nap</td><td class="price">3 500 Ft</td></tr>
+        <tr><td>Tengeri kajak - 1 személyes</td><td>óra</td><td class="price">2 000 Ft</td></tr>
+        <tr><td>Tengeri kajak - 2 személyes</td><td>óra</td><td class="price">3 500 Ft</td></tr>
+        <tr><td>Kenu - 4 személyes</td><td>óra</td><td class="price">3 500 Ft</td></tr>
       </tbody>
     </table>
 
