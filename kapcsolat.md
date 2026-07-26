@@ -21,27 +21,40 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
           <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
         </dl>
 
-        <!--
-          Csere: a form action egy saját Formspree (formspree.io) végpontra,
-          mert statikus oldalon nincs szerver oldali levélküldés.
-          Regisztráció után az action="https://formspree.io/f/XXXXXXX" -re módosítandó.
-        -->
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="margin-top:32px;display:grid;gap:14px;max-width:420px;">
-          <label>
-            Név
-            <input type="text" name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #cfc9b4;margin-top:4px;">
-          </label>
-          <label>
-            E-mail
-            <input type="email" name="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #cfc9b4;margin-top:4px;">
-          </label>
-          <label>
-            Üzenet
-            <textarea name="message" rows="4" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #cfc9b4;margin-top:4px;"></textarea>
-          </label>
-          <button type="submit" class="btn btn--ember" style="border:none;cursor:pointer;justify-self:start;">Üzenet küldése</button>
-        </form>
+        <!-- 
+    This is a working contact form. To receive email, 
+    Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
+
+    Create Access Key here 👉 https://web3forms.com/
+       -->
+
+<section class="contact-section">
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Név</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
       </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Üzenet</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button type="submit" class="btn btn--ember" style="border:none;cursor:pointer;justify-self:start;">Üzenet küldése</button>
+  </form>
+
+</section>
 
       <div class="map-wrap">
         <iframe
