@@ -48,6 +48,7 @@ description: Elérhetőségek és ajánlatkérés az OrfűFitt Jurtatáborhoz.
             <button class="form-submit" type="submit">Üzenet küldése</button>
           </form>
         </div>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
       </div>
 
       <div class="map-wrap">
