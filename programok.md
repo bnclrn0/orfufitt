@@ -9,10 +9,6 @@ description: Aktív programok és élmények az OrfűFitt Jurtatáborban és a P
   <div class="container">
     <span class="eyebrow">Programok</span>
     <h1>Aktív napok a tábor körül</h1>
-    <p style="max-width:60ch;margin-bottom:40px;">
-      Az alábbi listát érdemes a régi oldal "Aktuális" és programrovataiból
-      pontosítani — dátumokkal, jelentkezési határidőkkel.
-    </p>
 
     <div class="grid-cards">
       <div class="card">
