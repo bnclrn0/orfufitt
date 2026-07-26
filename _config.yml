@@ -3,7 +3,7 @@ description: >-
   Jurtatábor és sporteszköz-kölcsönző Orfűn, a Pécsi-tó partján.
   Szállás, aktív programok és élmények családoknak, osztályoknak és csapatoknak.
 url: "https://orfufitt.github.io"
-baseurl: ""
+baseurl: "/orfufitt"
 
 lang: hu
 
